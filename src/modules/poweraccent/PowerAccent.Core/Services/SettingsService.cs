@@ -149,18 +149,28 @@ public class SettingsService
                 return new char[] { 'ć', 'ĉ', 'č', 'ċ', 'ç', 'ḉ' };
             case LetterKey.E:
                 return new char[] { 'é', 'è', 'ê', 'ë', 'ē', 'ė', '€' };
+            case LetterKey.G:
+                return new char[] { 'ğ' };
+            case LetterKey.H:
+                return new char[] { 'ḧ' };
             case LetterKey.I:
-                return new char[] { 'î', 'ï', 'í', 'ì', 'ī' };
+                return new char[] { 'î', 'ï', 'í', 'ì', 'ī', 'ı' };
+            case LetterKey.L: 
+                return new char[] { 'ɫ' };
             case LetterKey.N:
                 return new char[] { 'ñ', 'ń' };
             case LetterKey.O:
                 return new char[] { 'ô', 'ö', 'ó', 'ò', 'õ', 'ø', 'œ' };
+            case LetterKey.R:
+                return new char[] { 'ř' };
             case LetterKey.S:
-                return new char[] { 'š', 'ß', 'ś' };
+                return new char[] { 'š', 'ß', 'ś', 'ş' };
             case LetterKey.U:
                 return new char[] { 'û', 'ù', 'ü', 'ú', 'ū' };
             case LetterKey.Y:
                 return new char[] { 'ÿ', 'ý' };
+            case LetterKey.X:
+                return new char[] { 'ẍ' };
         }
 
         throw new ArgumentException("Letter {0} is missing", letter.ToString());
