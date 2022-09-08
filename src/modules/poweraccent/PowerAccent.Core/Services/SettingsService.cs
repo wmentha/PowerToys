@@ -405,7 +405,21 @@ public class SettingsService
                     new('£', '£'),
                     new('₤', '₤'),
                 };
-            
+            case LetterKey.M:
+                return new AccentPair[]
+                {
+                    new('ḿ', 'Ḿ'),
+                    new('m̋', 'M̋'),
+                    new('ṁ', 'Ṁ'),
+                    new('ṃ', 'Ṃ'),
+                    new('m̃', 'M̃'),
+                    new('ɱ', 'Ɱ'),
+                    new('ᵯ', null),
+                    new('ᶆ', null),
+                    new('ꬺ', null),
+                    new('ɰ', null),
+                    new('ℳ', 'ℳ'),
+                };
             case LetterKey.N:
                 return new AccentPair[]
                 { 
