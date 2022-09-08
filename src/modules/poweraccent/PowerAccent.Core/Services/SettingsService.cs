@@ -206,6 +206,11 @@ public class SettingsService
                     new('ċ', 'Ċ'),
                     new('ç', 'Ç'),
                     new('ḉ', 'Ḉ'),
+                    new('ȼ', 'Ȼ'),
+                    new('ꞓ', 'Ꞓ'),
+                    new('ꞔ', 'Ꞔ'),
+                    new('ƈ', 'Ƈ'),
+                    new('ɕ', null),
                 };
             case LetterKey.D:
                 return new AccentPair[]
