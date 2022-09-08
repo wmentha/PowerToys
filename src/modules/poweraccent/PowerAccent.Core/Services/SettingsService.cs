@@ -152,7 +152,14 @@ public class SettingsService
                     new('ä', 'Ä'),
                     new('ã', 'Ã'),
                     new('å', 'Å'),
+                    new('ą', 'Ą'),
                     new('æ', 'Æ'),
+                    new('ǣ', 'Ǣ'),
+                };
+            case LetterKey.B:
+                return new AccentPair[]
+                {
+                    new('ḇ', 'Ḇ'),
                 };
             case LetterKey.C:
                 return new AccentPair[]
@@ -164,6 +171,12 @@ public class SettingsService
                     new('ç', 'Ç'),
                     new('ḉ', 'Ḉ'),
                 };
+            case LetterKey.D:
+                return new AccentPair[]
+                {
+                    new('ð', 'Ð'),
+                    new('ḏ', 'Ḏ'),
+                };
             case LetterKey.E:
                 return new AccentPair[]
                 { 
@@ -173,17 +186,23 @@ public class SettingsService
                     new('ë', 'Ë'),
                     new('ē', 'Ē'),
                     new('ė', 'Ė'),
+                    new('ę', 'Ę'),
                     new('€', '€'),
                 };
             case LetterKey.G:
                 return new AccentPair[]
                 {
                     new('ğ', 'Ğ'),
+                    new('ǧ', 'Ǧ'),
+                    new('ĝ', 'Ĝ'),
+                    new('ḡ', 'Ḡ'),
                 };
             case LetterKey.H:
                 return new AccentPair[]
                 {
                     new('ḧ', 'Ḧ'),
+                    new('ḫ', 'Ḫ'),
+                    new('ḥ', 'Ḥ'),
                 };
             case LetterKey.I:
                 return new AccentPair[]
@@ -194,11 +213,24 @@ public class SettingsService
                     new('ì', 'Ì'),
                     new('ī', 'Ī'),
                     new('ı', null),
+                    new('ĭ', 'Ĭ'),
+                    new('ĭ', 'Ĭ'),
+                    new('ḭ', 'Ḭ'),
+                    new('ỉ', 'Ỉ'),
+                };
+            case LetterKey.K:
+                return new AccentPair[]
+                {
+                    new('ḵ', 'Ḵ'),
+                    new('ḳ', 'Ḳ'),
+                    new('ǩ', 'Ǩ'),
                 };
             case LetterKey.L:
                 return new AccentPair[]
                 {
                     new('ɫ', 'Ɫ'),
+                    new('ł', 'Ł'),
+                    new('ḻ', 'Ḻ'),
                 };
             
             case LetterKey.N:
@@ -206,6 +238,8 @@ public class SettingsService
                 { 
                     new('ñ', 'Ñ'),
                     new('ń', 'Ń'),
+                    new('ṉ', 'Ṉ'),
+                    new('ŋ', 'Ŋ'),
                 };
             case LetterKey.O:
                 return new AccentPair[]
@@ -222,6 +256,9 @@ public class SettingsService
                 return new AccentPair[]
                 {
                     new('ř', 'Ř'),
+                    new('ṛ', 'Ṛ'),
+                    new('ṟ', 'Ṟ'),
+                    new('ṝ', 'Ṝ'),
                 };
             case LetterKey.S:
                 return new AccentPair[]
@@ -230,6 +267,13 @@ public class SettingsService
                     new('ß', 'ẞ'),
                     new('ś', 'Ś'),
                     new('ş', 'Ş'),
+                    new('ṣ', 'Ṣ'),
+                };
+            case LetterKey.T:
+                return new AccentPair[]
+                {
+                    new('ṭ', 'Ṭ'),
+                    new('ť', 'Ť'),
                 };
             case LetterKey.U:
                 return new AccentPair[]
@@ -239,17 +283,27 @@ public class SettingsService
                     new('ü', 'Ü'),
                     new('ú', 'Ú'),
                     new('ū', 'Ū'),
+                    new('ṷ', 'Ṷ'),
                 };
             case LetterKey.Y:
                 return new AccentPair[]
                 { 
                     new('ÿ', 'Ÿ'),
                     new('ý', 'Ý'),
+                    new('ȳ', 'Ȳ'),
                 };
             case LetterKey.X:
                 return new AccentPair[]
                 {
                     new('ẍ', 'Ẍ'),
+                };
+            case LetterKey.Z:
+                return new AccentPair[]
+                {
+                    new('ž', 'Ž'),
+                    new('ẕ', 'Ẕ'),
+                    new('ż', 'Ż'),
+                    new('ź', 'Ź'),
                 };
         }
 

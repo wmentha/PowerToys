@@ -9,19 +9,24 @@ namespace PowerAccent.Core;
 public enum LetterKey
 {
     A = User32.VK.VK_A,
+    B = User32.VK.VK_B,
     C = User32.VK.VK_C,
+    D = User32.VK.VK_D,
     E = User32.VK.VK_E,
     G = User32.VK.VK_G,
     H = User32.VK.VK_H,
     I = User32.VK.VK_I,
+    K = User32.VK.VK_K,
     L = User32.VK.VK_L,
     N = User32.VK.VK_N,
     O = User32.VK.VK_O,
     R = User32.VK.VK_R,
     S = User32.VK.VK_S,
+    T = User32.VK.VK_T,
     U = User32.VK.VK_U,
     Y = User32.VK.VK_Y,
     X = User32.VK.VK_X,
+    Z = User32.VK.VK_Z,
 }
 
 public enum TriggerKey
