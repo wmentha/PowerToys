@@ -286,17 +286,23 @@ public class SettingsService
                     new('ū', 'Ū'),
                     new('ṷ', 'Ṷ'),
                 };
+            case LetterKey.W:
+                return new AccentPair[]
+                {
+                    new('ŵ', 'Ŵ'),
+                };
+            case LetterKey.X:
+                return new AccentPair[]
+                {
+                    new('ẍ', 'Ẍ'),
+                };
             case LetterKey.Y:
                 return new AccentPair[]
                 { 
                     new('ÿ', 'Ÿ'),
                     new('ý', 'Ý'),
                     new('ȳ', 'Ȳ'),
-                };
-            case LetterKey.X:
-                return new AccentPair[]
-                {
-                    new('ẍ', 'Ẍ'),
+                    new('ŷ', 'Ŷ'),
                 };
             case LetterKey.Z:
                 return new AccentPair[]
