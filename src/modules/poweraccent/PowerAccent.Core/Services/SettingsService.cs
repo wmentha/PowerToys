@@ -277,6 +277,16 @@ public class SettingsService
                     new('ꬳ', null),
                     new('€', '€'),
                 };
+            case LetterKey.F:
+                return new AccentPair[]
+                {
+                    new('ḟ', 'Ḟ'),
+                    new('ƒ', 'Ƒ'),
+                    new('ꞙ', 'Ꞙ'),
+                    new('ᵮ', null),
+                    new('ᶂ', null),
+                    new('₣', null),
+                };
             case LetterKey.G:
                 return new AccentPair[]
                 {
