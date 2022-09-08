@@ -175,6 +175,16 @@ public class SettingsService
                     new('ė', 'Ė'),
                     new('€', '€'),
                 };
+            case LetterKey.G:
+                return new AccentPair[]
+                {
+                    new('ğ', 'Ğ'),
+                };
+            case LetterKey.H:
+                return new AccentPair[]
+                {
+                    new('ḧ', 'Ḧ'),
+                };
             case LetterKey.I:
                 return new AccentPair[]
                 { 
@@ -183,7 +193,14 @@ public class SettingsService
                     new('í', 'Í'),
                     new('ì', 'Ì'),
                     new('ī', 'Ī'),
+                    new('ı', null),
                 };
+            case LetterKey.L:
+                return new AccentPair[]
+                {
+                    new('ɫ', 'Ɫ'),
+                };
+            
             case LetterKey.N:
                 return new AccentPair[]
                 { 
@@ -201,12 +218,18 @@ public class SettingsService
                     new('ø', 'Ø'),
                     new('œ', 'Œ'),
                 };
+            case LetterKey.R:
+                return new AccentPair[]
+                {
+                    new('ř', 'Ř'),
+                };
             case LetterKey.S:
                 return new AccentPair[]
                 { 
                     new('š', 'Š'),
                     new('ß', 'ẞ'),
                     new('ś', 'Ś'),
+                    new('ş', 'Ş'),
                 };
             case LetterKey.U:
                 return new AccentPair[]
@@ -222,6 +245,11 @@ public class SettingsService
                 { 
                     new('ÿ', 'Ÿ'),
                     new('ý', 'Ý'),
+                };
+            case LetterKey.X:
+                return new AccentPair[]
+                {
+                    new('ẍ', 'Ẍ'),
                 };
         }
 
