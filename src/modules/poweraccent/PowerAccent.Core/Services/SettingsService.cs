@@ -217,6 +217,20 @@ public class SettingsService
                 {
                     new('ð', 'Ð'),
                     new('ḏ', 'Ḏ'),
+                    new('ď', 'Ď'),
+                    new('ḋ', 'Ḋ'),
+                    new('ḑ', 'Ḑ'),
+                    new('d̦', 'D̦'),
+                    new('ḍ', 'Ḍ'),
+                    new('ḓ', 'Ḓ'),
+                    new('đ', 'Đ'),
+                    new('ɖ', 'Ɖ'),
+                    new('ꟈ', 'Ꟈ'),
+                    new('ɗ', 'Ɗ'),
+                    new('ᵭ', null),
+                    new('ᶁ', null),
+                    new('ᶑ', null),
+                    new('ȡ', null),
                 };
             case LetterKey.E:
                 return new AccentPair[]
