@@ -249,6 +249,7 @@ public class SettingsService
                     new('ó', 'Ó'),
                     new('ò', 'Ò'),
                     new('õ', 'Õ'),
+                    new('ō', 'Ō'),
                     new('ø', 'Ø'),
                     new('œ', 'Œ'),
                 };
