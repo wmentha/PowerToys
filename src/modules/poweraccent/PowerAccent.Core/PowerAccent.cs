@@ -59,7 +59,10 @@ public class PowerAccent : IDisposable
             // Keep track if it was triggered with space so that it can be typed on false starts.
             _triggeredWithSpace = triggerPressed.Value == TriggerKey.Space;
             _visible = true;
-            _characters = WindowsFunctions.IsCapitalState() ? ToUpper(_settingService.GetLetterKey(letterPressed.Value)) : _settingService.GetLetterKey(letterPressed.Value);
+            var accentPair = _settingService.GetLetterKey(letterPressed.Value);
+            _characters = Windows.Functions.IsCapitalState() ?
+                accentPair.Where(c => c.upper.HasValue).Select(c => c.upper).ToArray() :
+                accentPair.Where(c => c.lower.HasValue).Select(c => c.lower).ToArray();
             Task.Delay(_settingService.InputTime).ContinueWith(
                 t =>
                 {
@@ -182,7 +185,7 @@ public class PowerAccent : IDisposable
         return Calculation.GetRawCoordinatesFromPosition(position, screen, window);
     }
 
-    public char[] GetLettersFromKey(LetterKey letter)
+    public AccentPair[] GetLettersFromKey(LetterKey letter)
     {
         return _settingService.GetLetterKey(letter);
     }
@@ -191,16 +194,5 @@ public class PowerAccent : IDisposable
     {
         _keyboardListener.Dispose();
         GC.SuppressFinalize(this);
-    }
-
-    public static char[] ToUpper(char[] array)
-    {
-        char[] result = new char[array.Length];
-        for (int i = 0; i < array.Length; i++)
-        {
-            result[i] = char.ToUpper(array[i], System.Globalization.CultureInfo.InvariantCulture);
-        }
-
-        return result;
     }
 }

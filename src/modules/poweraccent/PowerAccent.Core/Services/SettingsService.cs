@@ -134,38 +134,102 @@ public class SettingsService
         }
     }
 
-    public char[] GetLetterKey(LetterKey letter)
+    public AccentPair[] GetLetterKey(LetterKey letter)
     {
         return GetDefaultLetterKey(letter);
     }
 
-    public static char[] GetDefaultLetterKey(LetterKey letter)
+    public static AccentPair[] GetDefaultLetterKey(LetterKey letter)
     {
         switch (letter)
         {
             case LetterKey.A:
-                return new char[] { 'à', 'â', 'á', 'ä', 'ã', 'å', 'æ' };
+                return new AccentPair[]
+                { 
+                    new('à', 'À'),
+                    new('â', 'Â'),
+                    new('á', 'Á'),
+                    new('ä', 'Ä'),
+                    new('ã', 'Ã'),
+                    new('å', 'Å'),
+                    new('æ', 'Æ'),
+                };
             case LetterKey.C:
-                return new char[] { 'ć', 'ĉ', 'č', 'ċ', 'ç', 'ḉ' };
+                return new AccentPair[]
+                { 
+                    new('ć', 'Ć'),
+                    new('ĉ', 'Ĉ'),
+                    new('č', 'Č'),
+                    new('ċ', 'Ċ'),
+                    new('ç', 'Ç'),
+                    new('ḉ', 'Ḉ'),
+                };
             case LetterKey.E:
-                return new char[] { 'é', 'è', 'ê', 'ë', 'ē', 'ė', '€' };
+                return new AccentPair[]
+                { 
+                    new('é', 'É'),
+                    new('è', 'È'),
+                    new('ê', 'Ê'),
+                    new('ë', 'Ë'),
+                    new('ē', 'Ē'),
+                    new('ė', 'Ė'),
+                    new('€', '€'),
+                };
             case LetterKey.I:
-                return new char[] { 'î', 'ï', 'í', 'ì', 'ī' };
+                return new AccentPair[]
+                { 
+                    new('î', 'Î'),
+                    new('ï', 'Ï'),
+                    new('í', 'Í'),
+                    new('ì', 'Ì'),
+                    new('ī', 'Ī'),
+                };
             case LetterKey.N:
-                return new char[] { 'ñ', 'ń' };
+                return new AccentPair[]
+                { 
+                    new('ñ', 'Ñ'),
+                    new('ń', 'Ń'),
+                };
             case LetterKey.O:
-                return new char[] { 'ô', 'ö', 'ó', 'ò', 'õ', 'ø', 'œ' };
+                return new AccentPair[]
+                { 
+                    new('ô', 'Ô'),
+                    new('ö', 'Ö'),
+                    new('ó', 'Ó'),
+                    new('ò', 'Ò'),
+                    new('õ', 'Õ'),
+                    new('ø', 'Ø'),
+                    new('œ', 'Œ'),
+                };
             case LetterKey.S:
-                return new char[] { 'š', 'ß', 'ś' };
+                return new AccentPair[]
+                { 
+                    new('š', 'Š'),
+                    new('ß', 'ẞ'),
+                    new('ś', 'Ś'),
+                };
             case LetterKey.U:
-                return new char[] { 'û', 'ù', 'ü', 'ú', 'ū' };
+                return new AccentPair[]
+                { 
+                    new('û', 'Û'),
+                    new('ù', 'Ù'),
+                    new('ü', 'Ü'),
+                    new('ú', 'Ú'),
+                    new('ū', 'Ū'),
+                };
             case LetterKey.Y:
-                return new char[] { 'ÿ', 'ý' };
+                return new AccentPair[]
+                { 
+                    new('ÿ', 'Ÿ'),
+                    new('ý', 'Ý'),
+                };
         }
 
         throw new ArgumentException("Letter {0} is missing", letter.ToString());
     }
 }
+
+public record AccentPair(char? lower, char? upper);
 
 public enum Position
 {
