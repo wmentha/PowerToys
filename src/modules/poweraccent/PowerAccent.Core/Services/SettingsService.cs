@@ -515,6 +515,15 @@ public class SettingsService
                     new('₱', '₱'),
                     new('℗', '℗'),
                 };
+            case LetterKey.Q:
+                return new AccentPair[]
+                {
+                    new('ꝗ', 'Ꝗ'),
+                    new('ꝙ', 'Ꝙ'),
+                    new('ɋ', 'Ɋ'),
+                    new('q̃', 'Q̃'),
+                    new('ʠ', null),
+                };
             case LetterKey.R:
                 return new AccentPair[]
                 {
