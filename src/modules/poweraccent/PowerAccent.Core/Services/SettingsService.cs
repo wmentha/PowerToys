@@ -281,6 +281,9 @@ public class SettingsService
                     new('ō', 'Ō'),
                     new('ø', 'Ø'),
                     new('œ', 'Œ'),
+                    new('ꭀ', null),
+                    new('ꭁ', null),
+                    new('ꭂ', null),
                 };
             case LetterKey.R:
                 return new AccentPair[]
