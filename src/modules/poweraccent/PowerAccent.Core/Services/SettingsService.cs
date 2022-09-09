@@ -704,6 +704,18 @@ public class SettingsService
                 return new AccentPair[]
                 {
                     new('ẍ', 'Ẍ'),
+                    new('x́', 'X́'),
+                    new('x̂', 'X̂'),
+                    new('x̌', 'X̌'),
+                    new('ẋ', 'Ẋ'),
+                    new('x̧', 'X̧'),
+                    new('x̱', 'X̱'),
+                    new('x̣', 'X̣'),
+                    new('ᶍ', null),
+                    new('ꭖ', null),
+                    new('ꭗ', null),
+                    new('ꭘ', null),
+                    new('ꭙ', null),
                 };
             case LetterKey.Y:
                 return new AccentPair[]
