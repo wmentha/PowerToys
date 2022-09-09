@@ -666,6 +666,22 @@ public class SettingsService
                     new('ꭎ', null),
                     new('ꭒ', null),
                 };
+            case LetterKey.V:
+                return new AccentPair[]
+                {
+                    new('ṽ', 'Ṽ'),
+                    new('ṿ', 'Ṿ'),
+                    new('v̇', 'V̇'),
+                    new('ṿ', 'Ṿ'),
+                    new('ꝟ', 'Ꝟ'),
+                    new('ʋ', 'Ʋ'),
+                    new('ỽ', 'Ỽ'),
+                    new('ʌ', 'Ʌ'),
+                    new('ᶌ', null),
+                    new('ⱱ', null),
+                    new('ⱴ', null),
+                    new(null, '℣'),
+                };
             case LetterKey.W:
                 return new AccentPair[]
                 {
