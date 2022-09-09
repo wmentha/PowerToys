@@ -597,6 +597,25 @@ public class SettingsService
                 {
                     new('ṭ', 'Ṭ'),
                     new('ť', 'Ť'),
+                    new('ṫ', 'Ṫ'),
+                    new('ţ', 'Ţ'),
+                    new('ț', 'Ț'),
+                    new('ṱ', 'Ṱ'),
+                    new('ṯ', 'Ṯ'),
+                    new('ŧ', 'Ŧ'),
+                    new('ⱦ', 'Ⱦ'),
+                    new('ƭ', 'Ƭ'),
+                    new('ʈ', 'Ʈ'),
+                    new('ẗ', 'T̈'),
+                    new('ꞇ', 'Ꞇ'),
+                    new('ʇ', 'Ʇ')
+                    new('ȶ', null),
+                    new('ᵵ', null),
+                    new('ƫ', null),
+                    new('₮', '₮'),
+                    new('₸', '₸'),
+                    new('৳', '৳'),
+                    new('™', '™'),
                 };
             case LetterKey.U:
                 return new AccentPair[]
