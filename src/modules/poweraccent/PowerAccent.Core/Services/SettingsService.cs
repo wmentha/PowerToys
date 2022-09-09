@@ -724,6 +724,16 @@ public class SettingsService
                     new('ý', 'Ý'),
                     new('ȳ', 'Ȳ'),
                     new('ŷ', 'Ŷ'),
+                    new('ỳ', 'Ỳ'),
+                    new('ẙ', 'Y̊'),
+                    new('ỹ', 'Ỹ'),
+                    new('ẏ', 'Ẏ'),
+                    new('ỷ', 'Ỷ'),
+                    new('ỵ', 'Ỵ'),
+                    new('ɏ', 'Ɏ'),
+                    new('ƴ', 'Ƴ'),
+                    new('ỿ', 'Ỿ'),
+                    new('¥', '¥'),
                 };
             case LetterKey.Z:
                 return new AccentPair[]
