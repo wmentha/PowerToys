@@ -61,8 +61,8 @@ public class PowerAccent : IDisposable
             _visible = true;
             var accentPair = _settingService.GetLetterKey(letterPressed.Value);
             _characters = Windows.Functions.IsCapitalState() ?
-                accentPair.Where(c => c.upper.HasValue).Select(c => c.upper).ToArray() :
-                accentPair.Where(c => c.lower.HasValue).Select(c => c.lower).ToArray();
+                accentPair.Where(c => c.upper.HasValue).Select(c => c.upper.Value).ToArray() :
+                accentPair.Where(c => c.lower.HasValue).Select(c => c.lower.Value).ToArray();
             Task.Delay(_settingService.InputTime).ContinueWith(
                 t =>
                 {
