@@ -181,6 +181,7 @@ public class SettingsService
                     new('ḁ', 'Ḁ'),
                     new('ⱥ', 'Ⱥ'),
                     new('æ', 'Æ'),
+                    new('ᴂ', null),
                     new('ǣ', 'Ǣ'),
                     new('ǽ', 'Ǽ'),
                     new('æ̀', 'Æ̀'),
