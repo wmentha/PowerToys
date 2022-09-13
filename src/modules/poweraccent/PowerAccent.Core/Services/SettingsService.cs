@@ -865,7 +865,26 @@ public class SettingsService
                     new('𑿠', '𑿠'),
                     new('𞋿', '𞋿'),
                     new('𞲰', '𞲰'),
-                }
+                };
+            case LetterKey.Exclamation:
+                return new AccentPair[]
+                {
+                    new('¡', '¡'),
+                    new('‼', '‼'),
+                    new('⁉', '⁉'),
+                    new('！', '！'),
+                    new('﹗', '﹗'),
+                };
+            case LetterKey.Question:
+                return new AccentPair[]
+                {
+                    new('¿', '¿'),
+                    new('⁇', '⁇'),
+                    new('⁈', '⁈'),
+                    new('？', '？'),
+                    new('﹖', '﹖'),
+                    new('⸮', '⸮'),
+                };
         }
 
         throw new ArgumentException("Letter {0} is missing", letter.ToString());

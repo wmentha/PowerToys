@@ -35,6 +35,8 @@ public enum LetterKey
     Y = User32.VK.VK_Y,
     Z = User32.VK.VK_Z,
     Currency = 0x34,
+    Exclamation = 0x31,
+    Question = User32.VK.VK_OEM_2, // 0xBF
 }
 
 public enum TriggerKey
