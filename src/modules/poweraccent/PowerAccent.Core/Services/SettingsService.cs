@@ -184,6 +184,12 @@ public class SettingsService
                     new('ǣ', 'Ǣ'),
                     new('ǽ', 'Ǽ'),
                     new('æ̀', 'Æ̀'),
+                    new('ꜳ', 'Ꜳ'),
+                    new('ꜵ', 'Ꜵ'),
+                    new('ꜷ', 'Ꜷ'),
+                    new('ꜹ', 'Ꜹ'),
+                    new('ꜻ', 'Ꜻ'),
+                    new('ꜽ', 'Ꜽ'),
                 };
             case LetterKey.B:
                 return new AccentPair[]
@@ -210,6 +216,8 @@ public class SettingsService
                     new('ꞓ', 'Ꞓ'),
                     new('ꞔ', 'Ꞔ'),
                     new('ƈ', 'Ƈ'),
+                    new('ɔ', 'Ɔ'),
+                    new('ꬿ', null),
                     new('ɕ', null),
                 };
             case LetterKey.D:
@@ -227,10 +235,12 @@ public class SettingsService
                     new('ɖ', 'Ɖ'),
                     new('ꟈ', 'Ꟈ'),
                     new('ɗ', 'Ɗ'),
+                    new('ꝺ', 'Ꝺ'),
                     new('ᵭ', null),
                     new('ᶁ', null),
                     new('ᶑ', null),
                     new('ȡ', null),
+                    new('ꝱ', null),
                 };
             case LetterKey.E:
                 return new AccentPair[]
@@ -271,10 +281,14 @@ public class SettingsService
                     new('e̩', 'E̩'),
                     new('è̩', 'È̩'),
                     new('é̩', 'É̩'),
+                    new('ꝫ', 'Ꝫ'),
+                    new('ɛ', 'Ɛ'),
+                    new('ɜ', 'Ɜ'),
                     new('ᶒ', null),
                     new('ⱸ', null),
                     new('ꬴ', null),
                     new('ꬳ', null),
+                    new('ɝ', null),
                     new('€', '€'),
                 };
             case LetterKey.F:
@@ -283,6 +297,7 @@ public class SettingsService
                     new('ḟ', 'Ḟ'),
                     new('ƒ', 'Ƒ'),
                     new('ꞙ', 'Ꞙ'),
+                    new('ꝼ', 'Ꝼ'),
                     new('ᵮ', null),
                     new('ᶂ', null),
                     new('₣', null),
@@ -301,6 +316,9 @@ public class SettingsService
                     new('ġ', 'Ġ'),
                     new('ꞡ', 'Ꞡ'),
                     new('g̃', 'G̃'),
+                    new('ᵹ', 'Ᵹ'),
+                    new('ꝿ', 'Ꝿ'),
+                    new('ꬶ', null),
                     new('ᶃ', null),
                 };
             case LetterKey.H:
@@ -317,6 +335,7 @@ public class SettingsService
                     new('ħ', 'Ħ'),
                     new('ⱨ', 'Ⱨ'),
                     new('ɦ', 'Ɦ'),
+                    new('ꜧ', 'Ꜧ'),
                     new('ꞕ', null),
                 };
             case LetterKey.I:
@@ -404,6 +423,7 @@ public class SettingsService
                     new('ᶅ', null),
                     new('ɭ', null),
                     new('ȴ', null),
+                    new('ꝲ', null),
                     new('£', '£'),
                     new('₤', '₤'),
                 };
@@ -420,6 +440,7 @@ public class SettingsService
                     new('ᶆ', null),
                     new('ꬺ', null),
                     new('ɰ', null),
+                    new('ꝳ', null),
                     new('ℳ', 'ℳ'),
                 };
             case LetterKey.N:
@@ -440,12 +461,13 @@ public class SettingsService
                     new('ƞ', 'Ƞ'),
                     new('ꞑ', 'Ꞑ'),
                     new('ꞥ', 'Ꞥ'),
-                    new(ᵰ, null),
-                    new(ᶇ, null),
-                    new(ɳ, null),
-                    new(ȵ, null),
-                    new(ꬻ, null),
-                    new(ꬼ, null),
+                    new('ᵰ', null),
+                    new('ᶇ', null),
+                    new('ɳ', null),
+                    new('ȵ', null),
+                    new('ꬻ', null),
+                    new('ꬼ', null),
+                    new('ꝴ', null)
                     new('₦', '₦'),
                 };
             case LetterKey.O:
@@ -499,7 +521,12 @@ public class SettingsService
                     new('ꭀ', null),
                     new('ꭁ', null),
                     new('ꭂ', null),
+                    new('ᴔ', null),
+                    new('ꭢ', null),
                     new('ⱺ', null),
+                    new('ꭃ', null),
+                    new('ꭄ', null),
+                    new('ꝏ', 'Ꝏ'),
                 };
             case LetterKey.P:
                 return new AccentPair[]
@@ -545,6 +572,7 @@ public class SettingsService
                     new('ꝵ', 'ꝶ'),
                     new('ꝛ', 'Ꝛ'),
                     new('ꝝ', 'Ꝝ'),
+                    new('ꞃ', 'Ꞃ'),
                     new('ᵲ', null),
                     new('ꭈ', null),
                     new('ꭉ', null),
@@ -584,11 +612,13 @@ public class SettingsService
                     new('ȿ', 'Ȿ'),
                     new('ʂ', 'Ʂ'),
                     new('ƨ', 'Ƨ'),
+                    new('ꝭ', 'Ꝭ'),
                     new('ꟙ', 'Ꟙ'),
                     new('ᶊ', null),
                     new('ᵴ', null),
                     new('ſ', null),
                     new('ẜ', null),
+                    new('ẝ', null),
                     new('ẛ', null),
                     new('$', '$'),
                     new('₷', '₷'),
@@ -611,6 +641,9 @@ public class SettingsService
                     new('ẗ', 'T̈'),
                     new('ꞇ', 'Ꞇ'),
                     new('ʇ', 'Ʇ'),
+                    new('þ', 'Þ'),
+                    new('ꝥ', 'Ꝥ'),
+                    new('ꝧ', 'Ꝧ'),
                     new('ȶ', null),
                     new('ᵵ', null),
                     new('ƫ', null),
@@ -663,6 +696,7 @@ public class SettingsService
                     new('ꞹ', 'Ꞹ'),
                     new('ꞿ', 'Ꞿ'),
                     new('ᶙ', null),
+                    new('ꭐ', null),
                     new('ꭑ', null),
                     new('ꭏ', null),
                     new('ꭎ', null),
@@ -682,6 +716,8 @@ public class SettingsService
                     new('ᶌ', null),
                     new('ⱱ', null),
                     new('ⱴ', null),
+                    new('ꝡ', 'Ꝡ'),
+                    new('ꝩ', 'Ꝩ'),
                     new(null, '℣'),
                 };
             case LetterKey.W:
@@ -696,7 +732,6 @@ public class SettingsService
                     new('ꟃ', 'Ꟃ'),
                     new('ẘ', 'W̊'),
                     new('ⱳ', 'Ⱳ'),
-                    new('ꝡ', 'Ꝡ'),
                     new('ʍ', null),
                     new('ɯ', null),
                     new('ɰ', null),
@@ -735,6 +770,7 @@ public class SettingsService
                     new('ɏ', 'Ɏ'),
                     new('ƴ', 'Ƴ'),
                     new('ỿ', 'Ỿ'),
+                    new('ꭚ', null),
                     new('¥', '¥'),
                 };
             case LetterKey.Z:
