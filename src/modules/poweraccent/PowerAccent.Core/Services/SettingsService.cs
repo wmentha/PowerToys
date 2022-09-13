@@ -301,6 +301,7 @@ public class SettingsService
                     new('ġ', 'Ġ'),
                     new('ꞡ', 'Ꞡ'),
                     new('g̃', 'G̃'),
+                    new('ᶃ', null),
                 };
             case LetterKey.H:
                 return new AccentPair[]
@@ -316,6 +317,7 @@ public class SettingsService
                     new('ħ', 'Ħ'),
                     new('ⱨ', 'Ⱨ'),
                     new('ɦ', 'Ɦ'),
+                    new('ꞕ', null),
                 };
             case LetterKey.I:
                 return new AccentPair[]
