@@ -16,6 +16,7 @@ public class PowerAccent : IDisposable
     private bool _visible;
     private char[] _characters = Array.Empty<char>();
     private int _selectedIndex = -1;
+    private bool _capitalState = false;
 
     public event Action<bool, char[]> OnChangeDisplay;
 
@@ -57,12 +58,17 @@ public class PowerAccent : IDisposable
                 ProcessNextChar(triggerKey);
             });
         }));
+
+        _keyboardListener.SetCapitalStateEvent(new PowerToys.PowerAccentKeyboardService.SetCapitalState((bool capital) =>
+        {
+            _capitalState = capital;
+        }));
     }
 
     private void ShowToolbar(LetterKey letterKey)
     {
         _visible = true;
-        _characters = WindowsFunctions.IsCapitalState() ? ToUpper(SettingsService.GetDefaultLetterKey(letterKey)) : SettingsService.GetDefaultLetterKey(letterKey);
+        _characters = capitalState ? ToUpper(SettingsService.GetDefaultLetterKey(letterKey)) : SettingsService.GetDefaultLetterKey(letterKey);
         Task.Delay(_settingService.InputTime).ContinueWith(
             t =>
             {

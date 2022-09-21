@@ -68,6 +68,13 @@ namespace winrt::PowerToys::PowerAccentKeyboardService::implementation
         };
     }
 
+    void KeyboardListener::SetCaptitalStateEvent(SetCapitalState capitalState)
+    {
+        m_setCapitalCb = [trigger = std::move(capitalState)](bool capital) {
+            trigger(capital);
+        };
+    }
+
     void KeyboardListener::UpdateActivationKey(int32_t activationKey)
     {
         m_settings.activationKey = static_cast<PowerAccentActivationKey>(activationKey);
@@ -80,6 +87,15 @@ namespace winrt::PowerToys::PowerAccentKeyboardService::implementation
 
     bool KeyboardListener::OnKeyDown(KBDLLHOOKSTRUCT info) noexcept
     {
+        if (GetKeyState(VK_CAPITAL) != 0 || GetKeyState(VK_SHIFT) < 0)
+        {
+            m_setCapitalCb(true);
+        }
+        else
+        {
+            m_setCapitalCb(false);
+        }
+
         if (std::find(std::begin(letters), end(letters), static_cast<LetterKey>(info.vkCode)) != end(letters))
         {
             m_stopwatch.reset();

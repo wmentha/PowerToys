@@ -32,6 +32,7 @@ namespace winrt::PowerToys::PowerAccentKeyboardService::implementation
         void SetShowToolbarEvent(ShowToolbar showToolbarEvent);
         void SetHideToolbarEvent(HideToolbar hideToolbarEvent);
         void SetNextCharEvent(NextChar NextCharEvent);
+        void SetCaptitalStateEvent(SetCapitalState capitalState);
 
         void UpdateActivationKey(int32_t activationKey);
         void UpdateInputTime(int32_t inputTime);
@@ -49,6 +50,7 @@ namespace winrt::PowerToys::PowerAccentKeyboardService::implementation
         std::function<void(LetterKey)> m_showToolbarCb;
         std::function<void(InputType)> m_hideToolbarCb;
         std::function<void(TriggerKey)> m_nextCharCb;
+        std::function<void(bool)> m_setCapitalCb;
         bool m_triggeredWithSpace;
         spdlog::stopwatch m_stopwatch;
 
