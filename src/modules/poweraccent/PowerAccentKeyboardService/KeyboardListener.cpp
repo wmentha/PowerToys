@@ -87,13 +87,16 @@ namespace winrt::PowerToys::PowerAccentKeyboardService::implementation
 
     bool KeyboardListener::OnKeyDown(KBDLLHOOKSTRUCT info) noexcept
     {
-        if (GetKeyState(VK_CAPITAL) != 0 || GetKeyState(VK_SHIFT) < 0)
+        if (auto code = info.vkCode; code != VK_SPACE && code != VK_LEFT && code != VK_RIGHT)
         {
-            m_setCapitalCb(true);
-        }
-        else
-        {
-            m_setCapitalCb(false);
+            if (GetKeyState(VK_CAPITAL) != 0 || GetKeyState(VK_SHIFT) < 0)
+            {
+                m_setCapitalCb(true);
+            }
+            else
+            {
+                m_setCapitalCb(false);
+            }
         }
 
         if (std::find(std::begin(letters), end(letters), static_cast<LetterKey>(info.vkCode)) != end(letters))
