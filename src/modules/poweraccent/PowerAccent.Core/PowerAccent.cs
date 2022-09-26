@@ -16,14 +16,14 @@ public class PowerAccent : IDisposable
 
     private LetterKey? letterPressed;
     private bool _visible;
-    private char[] _characters = Array.Empty<char>();
+    private string[] _characters = Array.Empty<string>();
     private int _selectedIndex = -1;
     private Stopwatch _stopWatch;
     private bool _triggeredWithSpace;
 
-    public event Action<bool, char[]> OnChangeDisplay;
+    public event Action<bool, string[]> OnChangeDisplay;
 
-    public event Action<int, char> OnSelectCharacter;
+    public event Action<int> OnSelectCharacter;
 
     public PowerAccent()
     {
@@ -61,8 +61,8 @@ public class PowerAccent : IDisposable
             _visible = true;
             var accentPair = _settingService.GetLetterKey(letterPressed.Value);
             _characters = Windows.Functions.IsCapitalState() ?
-                accentPair.Where(c => c.upper.HasValue).Select(c => c.upper.Value).ToArray() :
-                accentPair.Where(c => c.lower.HasValue).Select(c => c.lower.Value).ToArray();
+                accentPair.Where(c => String.IsNullOrEmpty(c.upper)).Select(c => c.upper).ToArray() :
+                accentPair.Where(c => String.IsNullOrEmpty(c.lower)).Select(c => c.lower).ToArray();
             Task.Delay(_settingService.InputTime).ContinueWith(
                 t =>
                 {

@@ -28,17 +28,17 @@ public partial class Selector : Window, IDisposable
         this.Visibility = Visibility.Hidden;
     }
 
-    private void PowerAccent_OnSelectionCharacter(int index, char character)
+    private void PowerAccent_OnSelectionCharacter(int index)
     {
         characters.SelectedIndex = index;
     }
 
-    private void PowerAccent_OnChangeDisplay(bool isActive, char[] chars)
+    private void PowerAccent_OnChangeDisplay(bool isActive, string[] strs)
     {
         this.Visibility = isActive ? Visibility.Visible : Visibility.Collapsed;
         if (isActive)
         {
-            characters.ItemsSource = chars;
+            characters.ItemsSource = strs;
             CenterWindow();
             Microsoft.PowerToys.Telemetry.PowerToysTelemetry.Log.WriteEvent(new PowerAccent.Core.Telemetry.PowerAccentShowAccentMenuEvent());
         }
