@@ -216,6 +216,8 @@ public class SettingsService
                     new("ꬱ", String.Empty),
                     new("ꞛ", "Ꞛ"),
                     new("ꞻ", "Ꞻ"),
+                    new(String.Empty, "ᴀ"),
+                    new(String.Empty, "ᴁ"),
                     new("₳", "₳"),
                 };
             case LetterKey.B:
@@ -251,6 +253,7 @@ public class SettingsService
                     new("ƃ", "Ƃ"),
                     new("ƅ", "Ƅ"),
                     new(String.Empty, "ʙ"),
+                    new(String.Empty, "ᴃ"),
                     new("ᵬ", String.Empty),
                     new("ᶀ", String.Empty),
                     new("฿", "฿"),
@@ -295,6 +298,7 @@ public class SettingsService
                     new("ʗ", String.Empty),
                     new("𝼏", String.Empty),
                     new("𝼝", String.Empty),
+                    new(String.Empty, "ᴄ"),
                     new("¢", "¢"),
                     new("₡", "₡"),
                     new("₢", "₢"),
@@ -349,6 +353,8 @@ public class SettingsService
                     new(String.Empty, "ǲ"),
                     new("ǆ", "Ǆ"),
                     new(String.Empty, "ǅ"),
+                    new(String.Empty, "ᴅ"),
+                    new(String.Empty, "ᴆ"),
                     new("₫", "₫"),
                 };
             case LetterKey.E:
@@ -415,6 +421,8 @@ public class SettingsService
                     new("ɝ", String.Empty),
                     new(String.Empty, "ⱻ"),
                     new("ꬲ", String.Empty),
+                    new(String.Empty, "ᴇ"),
+                    new(String.Empty, "ᴈ"),
                     new("€", "€"),
                 };
             case LetterKey.F:
@@ -495,6 +503,7 @@ public class SettingsService
                     new(String.Empty, "ʛ"),
                     new("ꬶ", String.Empty),
                     new("ᶃ", String.Empty),
+                    new("ᵷ", String.Empty),
                     new("𝼁", String.Empty),
                     new("𝼂", String.Empty),
                     new("₲", "₲"),
@@ -586,8 +595,10 @@ public class SettingsService
                     new(String.Empty, "İ"),
                     new(String.Empty, "ꟷ"),
                     new(String.Empty, "ꟾ"),
+                    new(String.Empty, "ᴉ"),
                     new("ᶖ", String.Empty),
                     new("𝼚", String.Empty),
+                    new(String.Empty, "ᵻ"),
                 };
             case LetterKey.J:
                 return new AccentPair[]
@@ -621,6 +632,7 @@ public class SettingsService
                     new("ɟ", String.Empty),
                     new("ʄ", String.Empty),
                     new("ȷ", String.Empty),
+                    new(String.Empty, "ᴊ"),
                 };
             case LetterKey.K:
                 return new AccentPair[]
@@ -657,6 +669,7 @@ public class SettingsService
                     new("ᶄ", String.Empty),
                     new("𝼃", String.Empty),
                     new(String.Empty, "𝼐"),
+                    new(String.Empty, "ᴋ"),
                     new("₭", "₭"),
                 };
             case LetterKey.L:
@@ -718,7 +731,9 @@ public class SettingsService
                     new("ʪ", String.Empty),
                     new("ʫ", String.Empty),
                     new("ɮ", String.Empty),
+                    new("𝼅", String.Empty),
                     new("℔", String.Empty),
+                    new(String.Empty, "ᴌ"),
                     new("£", "£"),
                     new("₤", "₤"),
                     new("₺", "₺"),
@@ -758,6 +773,8 @@ public class SettingsService
                     new("ꝳ", String.Empty),
                     new("ꟺ", String.Empty),
                     new("ꟽ", String.Empty),
+                    new(String.Empty, "ᴍ"),
+                    new(String.Empty, "ᴟ"),
                     new("₼", "₼"),
                     new("₥", "₥"),
                     new("ℳ", "ℳ"),
@@ -806,6 +823,7 @@ public class SettingsService
                     new("ꬼ", String.Empty),
                     new("ꝴ", String.Empty),
                     new(String.Empty, "ɴ"),
+                    new(String.Empty, "ᴎ"),
                     new("₦", "₦"),
                     new("№", "№"),
                 };
@@ -886,6 +904,11 @@ public class SettingsService
                     new(String.Empty, "ɶ"),
                     new("ꞝ", "Ꞝ"),
                     new(String.Empty, "ʘ"),
+                    new(String.Empty, "ᴏ"),
+                    new(String.Empty, "ᴐ"),
+                    new(String.Empty, "ᴑ"),
+                    new(String.Empty, "ᴒ"),
+                    new(String.Empty, "ᴓ"),
                     new("ꭀ", String.Empty),
                     new("ꭁ", String.Empty),
                     new("ꭂ", String.Empty),
@@ -894,6 +917,9 @@ public class SettingsService
                     new("ⱺ", String.Empty),
                     new("ꭃ", String.Empty),
                     new("ꭄ", String.Empty),
+                    new("ᴕ", String.Empty),
+                    new("ᴖ", String.Empty),
+                    new("ᴗ", String.Empty),
                     new("ꝏ", "Ꝏ"),
                 };
             case LetterKey.P:
@@ -929,6 +955,7 @@ public class SettingsService
                     new("ᵱ", String.Empty),
                     new("ᶈ", String.Empty),
                     new(String.Empty, "ꟼ"),
+                    new(String.Empty, "ᴘ"),
                     new("₱", "₱"),
                     new("₧", "₧"),
                     new("₰", "₰"),
@@ -1032,7 +1059,9 @@ public class SettingsService
                     new("ɺ", String.Empty),
                     new("ɻ", String.Empty),
                     new("ɾ", String.Empty),
-                    new(String.Empty, "ʁ"), 
+                    new(String.Empty, "ʁ"),
+                    new(String.Empty, "ᴙ"), 
+                    new(String.Empty, "ᴚ"), 
                     new("₹", "₹"),
                     new("₨", "₨"),
                     new("®", "®"),
@@ -1096,6 +1125,7 @@ public class SettingsService
                     new(String.Empty, "ꜱ"),
                     new("ﬆ", String.Empty),
                     new("ﬅ", String.Empty),
+                    new("ᴤ", String.Empty),
                     new("$", "$"),
                     new("₷", "₷"),
                     new("§", "§"),
@@ -1150,6 +1180,7 @@ public class SettingsService
                     new("𝼪", String.Empty),
                     new("ᵺ", String.Empty),
                     new("ꝷ", String.Empty),
+                    new(String.Empty, "ᴛ"),
                     new("₮", "₮"),
                     new("₸", "₸"),
                     new("™", "™"),
@@ -1214,6 +1245,9 @@ public class SettingsService
                     new("ꭒ", String.Empty),
                     new("ᵫ", String.Empty),
                     new("ꭣ", String.Empty),
+                    new(String.Empty, "ᴝ"),
+                    new(String.Empty, "ᴞ"),
+                    new(String.Empty, "ᵾ"),
                     new("ꝸ", String.Empty),
                 };
             case LetterKey.V:
@@ -1252,6 +1286,7 @@ public class SettingsService
                     new("ᶌ", String.Empty),
                     new("ⱱ", String.Empty),
                     new("ⱴ", String.Empty),
+                    new(String.Empty, "ᴠ"),
                     new("ꝡ", "Ꝡ"),
                     new("ꝩ", "Ꝩ"),
                     new(String.Empty, "℣"),
@@ -1286,6 +1321,7 @@ public class SettingsService
                     new("ƿ", "Ƿ"),
                     new("ʍ", String.Empty),
                     new("ɰ", String.Empty),
+                    new(String.Empty, "ᴡ"),
                     new("ʬ", "ʬ"),
                     new("₩", "₩"),
                 };
@@ -1400,7 +1436,8 @@ public class SettingsService
                     new("ƺ", String.Empty),
                     new("ʓ", String.Empty),
                     new("ᶚ", String.Empty),
-                    new("𝼅", String.Empty),
+                    new(String.Empty, "ᴢ"),
+                    new(String.Empty, "ᴣ"),
                 };
             case LetterKey.Currency:
                 return new AccentPair[]
