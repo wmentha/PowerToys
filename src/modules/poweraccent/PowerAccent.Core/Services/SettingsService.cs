@@ -218,6 +218,7 @@ public class SettingsService
                     new("ꞻ", "Ꞻ"),
                     new(String.Empty, "ᴀ"),
                     new(String.Empty, "ᴁ"),
+                    new("ᶏ", String.Empty),
                     new("₳", "₳"),
                 };
             case LetterKey.B:
@@ -256,6 +257,7 @@ public class SettingsService
                     new(String.Empty, "ᴃ"),
                     new("ᵬ", String.Empty),
                     new("ᶀ", String.Empty),
+                    new("␢", String.Empty),
                     new("฿", "฿"),
                     new("₿", "฿"),
                 };
@@ -423,6 +425,9 @@ public class SettingsService
                     new("ꬲ", String.Empty),
                     new(String.Empty, "ᴇ"),
                     new(String.Empty, "ᴈ"),
+                    new("ᶓ", String.Empty),
+                    new("ᶔ", String.Empty),
+                    new("ᶕ", String.Empty),
                     new("€", "€"),
                 };
             case LetterKey.F:
@@ -920,6 +925,7 @@ public class SettingsService
                     new("ᴕ", String.Empty),
                     new("ᴖ", String.Empty),
                     new("ᴗ", String.Empty),
+                    new("ᶗ", String.Empty),
                     new("ꝏ", "Ꝏ"),
                 };
             case LetterKey.P:
