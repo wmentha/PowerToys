@@ -221,6 +221,19 @@ public class SettingsService
                     new("ᶏ", String.Empty),
                     new("₳", "₳"),
                     new("ａ", "Ａ"),
+                    new("𝐚", "𝐀"),
+                    new("𝑎", "𝐴"),
+                    new("𝒂", "𝑨"),
+                    new("𝒶", "𝒜"),
+                    new("𝓪", "𝓐"),
+                    new("𝔞", "𝔄"),
+                    new("𝖆", "𝕬"),
+                    new("𝕒", "𝔸"),
+                    new("𝖺", "𝖠"),
+                    new("𝗮", "𝗔"),
+                    new("𝘢", "𝘈"),
+                    new("𝙖", "𝘼"),
+                    new("𝚊", "𝙰"),
                 };
             case LetterKey.B:
                 return new AccentPair[]
@@ -262,6 +275,19 @@ public class SettingsService
                     new("฿", "฿"),
                     new("₿", "฿"),
                     new("ｂ", "Ｂ"),
+                    new("𝐛", "𝐁"),
+                    new("𝑏", "𝐵"),
+                    new("𝒃", "𝑩"),
+                    new("𝒷", "ℬ"),
+                    new("𝓫", "𝓑"),
+                    new("𝔟", "𝔅"),
+                    new("𝖇", "𝕭"),
+                    new("𝕓", "𝔹"),
+                    new("𝖻", "𝖡"),
+                    new("𝗯", "𝗕"),
+                    new("𝘣", "𝘉"),
+                    new("𝙗", "𝘽"),
+                    new("𝚋", "𝙱"),
                 };
             case LetterKey.C:
                 return new AccentPair[]
@@ -309,6 +335,19 @@ public class SettingsService
                     new("₵", "₵"),
                     new("©", "©"),
                     new("ｃ", "Ｃ"),
+                    new("𝐜", "𝐂"),
+                    new("𝑐", "𝐶"),
+                    new("𝒄", "𝑪"),
+                    new("𝒸", "𝒞"),
+                    new("𝓬", "𝓒"),
+                    new("𝔠", "ℭ"),
+                    new("𝖈", "𝕮"),
+                    new("𝕔", "ℂ"),
+                    new("𝖼", "𝖢"),
+                    new("𝗰", "𝗖"),
+                    new("𝘤", "𝘊"),
+                    new("𝙘", "𝘾"),
+                    new("𝚌", "𝙲"),
                 };
             case LetterKey.D:
                 return new AccentPair[]
@@ -362,6 +401,19 @@ public class SettingsService
                     new(String.Empty, "ᴆ"),
                     new("₫", "₫"),
                     new("ｄ", "Ｄ"),
+                    new("𝐝", "𝐃"),
+                    new("𝑑", "𝐷"),
+                    new("𝒅", "𝑫"),
+                    new("𝒹", "𝒟"),
+                    new("𝓭", "𝓓"),
+                    new("𝔡", "𝔇"),
+                    new("𝖉", "𝕯"),
+                    new("𝕕", "𝔻"),
+                    new("𝖽", "𝖣"),
+                    new("𝗱", "𝗗"),
+                    new("𝘥", "𝘋"),
+                    new("𝙙", "𝘿"),
+                    new("𝚍", "𝙳"),
                 };
             case LetterKey.E:
                 return new AccentPair[]
@@ -434,6 +486,19 @@ public class SettingsService
                     new("ᶕ", String.Empty),
                     new("€", "€"),
                     new("ｅ", "Ｅ"),
+                    new("𝐞", "𝐄"),
+                    new("𝑒", "𝐸"),
+                    new("𝒆", "𝑬"),
+                    new("ℯ", "ℰ"),
+                    new("𝓮", "𝓔"),
+                    new("𝔢", "𝔈"),
+                    new("𝖊", "𝕰"),
+                    new("𝕖", "𝔼"),
+                    new("𝖾", "𝖤"),
+                    new("𝗲", "𝗘"),
+                    new("𝘦", "𝘌"),
+                    new("𝙚", "𝙀"),
+                    new("𝚎", "𝙴"),
                 };
             case LetterKey.F:
                 return new AccentPair[]
@@ -476,6 +541,19 @@ public class SettingsService
                     new("𝼀", String.Empty),
                     new("₣", "₣"),
                     new("ｆ", "Ｆ"),
+                    new("𝐟", "𝐅"),
+                    new("𝑓", "𝐹"),
+                    new("𝒇", "𝑭"),
+                    new("𝒻", "ℱ"),
+                    new("𝓯", "𝓕"),
+                    new("𝔣", "𝔉"),
+                    new("𝖋", "𝕱"),
+                    new("𝕗", "𝔽"),
+                    new("𝖿", "𝖥"),
+                    new("𝗳", "𝗙"),
+                    new("𝘧", "𝘍"),
+                    new("𝙛", "𝙁"),
+                    new("𝚏", "𝙵"),
                 };
             case LetterKey.G:
                 return new AccentPair[]
@@ -519,6 +597,19 @@ public class SettingsService
                     new("𝼂", String.Empty),
                     new("₲", "₲"),
                     new("ｇ", "Ｇ"),
+                    new("𝐠", "𝐆"),
+                    new("𝑔", "𝐺"),
+                    new("𝒈", "𝑮"),
+                    new("ℊ", "𝒢"),
+                    new("𝓰", "𝓖"),
+                    new("𝔤", "𝔊"),
+                    new("𝖌", "𝕲"),
+                    new("𝕘", "𝔾"),
+                    new("𝗀", "𝖦"),
+                    new("𝗴", "𝗚"),
+                    new("𝘨", "𝘎"),
+                    new("𝙜", "𝙂"),
+                    new("𝚐", "𝙶"),
                 };
             case LetterKey.H:
                 return new AccentPair[]
@@ -560,6 +651,19 @@ public class SettingsService
                     new(String.Empty, "Ⱶ"),
                     new(String.Empty, "Ꟶ"),
                     new("ｈ", "Ｈ"),
+                    new("𝐡", "𝐇"),
+                    new("ℎ", "𝐻"),
+                    new("𝒉", "𝑯"),
+                    new("𝒽", "ℋ"),
+                    new("𝓱", "𝓗"),
+                    new("𝔥", "ℌ"),
+                    new("𝖍", "𝕳"),
+                    new("𝕙", "ℍ"),
+                    new("𝗁", "𝖧"),
+                    new("𝗵", "𝗛"),
+                    new("𝘩", "𝘏"),
+                    new("𝙝", "𝙃"),
+                    new("𝚑", "𝙷"),
                 };
             case LetterKey.I:
                 return new AccentPair[]
@@ -613,6 +717,20 @@ public class SettingsService
                     new("𝼚", String.Empty),
                     new(String.Empty, "ᵻ"),
                     new("ｉ", "Ｉ"),
+                    new("𝐢", "𝐈"),
+                    new("𝑖", "𝐼"),
+                    new("𝚤", String.Empty),
+                    new("𝒊", "𝑰"),
+                    new("𝒾", "ℐ"),
+                    new("𝓲", "𝓘"),
+                    new("𝔦", "ℑ"),
+                    new("𝖎", "𝕴"),
+                    new("𝕚", "𝕀"),
+                    new("𝗂", "𝖨"),
+                    new("𝗶", "𝗜"),
+                    new("𝘪", "𝘐"),
+                    new("𝙞", "𝙄"),
+                    new("𝚒", "𝙸"),
                 };
             case LetterKey.J:
                 return new AccentPair[]
@@ -648,6 +766,20 @@ public class SettingsService
                     new("ȷ", String.Empty),
                     new(String.Empty, "ᴊ"),
                     new("ｊ", "Ｊ"),
+                    new("𝐣", "𝐉"),
+                    new("𝑗", "𝐽"),
+                    new("𝚥", String.Empty),
+                    new("𝒋", "𝑱"),
+                    new("𝒿", "𝒥"),
+                    new("𝓳", "𝓙"),
+                    new("𝔧", "𝔍"),
+                    new("𝖏", "𝕵"),
+                    new("𝕛", "𝕁"),
+                    new("𝗃", "𝖩"),
+                    new("𝗷", "𝗝"),
+                    new("𝘫", "𝘑"),
+                    new("𝙟", "𝙅"),
+                    new("𝚓", "𝙹"),
                 };
             case LetterKey.K:
                 return new AccentPair[]
@@ -687,6 +819,19 @@ public class SettingsService
                     new(String.Empty, "ᴋ"),
                     new("₭", "₭"),
                     new("ｋ", "Ｋ"),
+                    new("𝐤", "𝐊"),
+                    new("𝑘", "𝐾"),
+                    new("𝒌", "𝑲"),
+                    new("𝓀", "𝒦"),
+                    new("𝓴", "𝓚"),
+                    new("𝔨", "𝔎"),
+                    new("𝖐", "𝕶"),
+                    new("𝕜", "𝕂"),
+                    new("𝗄", "𝖪"),
+                    new("𝗸", "𝗞"),
+                    new("𝘬", "𝘒"),
+                    new("𝙠", "𝙆"),
+                    new("𝚔", "𝙺"),
                 };
             case LetterKey.L:
                 return new AccentPair[]
@@ -755,6 +900,20 @@ public class SettingsService
                     new("₺", "₺"),
                     new("₶", "₶"),
                     new("ｌ", "Ｌ"),
+                    new("𝐥", "𝐋"),
+                    new("𝑙", "𝐿"),
+                    new("𝒍", "𝑳"),
+                    new("𝓁", "ℒ"),
+                    new("ℓ", String.Empty),
+                    new("𝓵", "𝓛"),
+                    new("𝔩", "𝔏"),
+                    new("𝖑", "𝕷"),
+                    new("𝕝", "𝕃"),
+                    new("𝗅", "𝖫"),
+                    new("𝗹", "𝗟"),
+                    new("𝘭", "𝘓"),
+                    new("𝙡", "𝙇"),
+                    new("𝚕", "𝙻"),
                 };
             case LetterKey.M:
                 return new AccentPair[]
@@ -794,9 +953,21 @@ public class SettingsService
                     new(String.Empty, "ᴟ"),
                     new("₼", "₼"),
                     new("₥", "₥"),
-                    new("ℳ", "ℳ"),
                     new("🆭", "🆭"),
                     new("ｍ", "Ｍ"),
+                    new("𝐦", "𝐌"),
+                    new("𝑚", "𝑀"),
+                    new("𝒎", "𝑴"),
+                    new("𝓂", "ℳ"),
+                    new("𝓶", "𝓜"),
+                    new("𝔪", "𝔐"),
+                    new("𝖒", "𝕸"),
+                    new("𝕞", "𝕄"),
+                    new("𝗆", "𝖬"),
+                    new("𝗺", "𝗠"),
+                    new("𝘮", "𝘔"),
+                    new("𝙢", "𝙈"),
+                    new("𝚖", "𝙼"),
                 };
             case LetterKey.N:
                 return new AccentPair[]
@@ -845,6 +1016,19 @@ public class SettingsService
                     new("₦", "₦"),
                     new("№", "№"),
                     new("ｎ", "Ｎ"),
+                    new("𝐧", "𝐍"),
+                    new("𝑛", "𝑁"),
+                    new("𝒏", "𝑵"),
+                    new("𝓃", "𝒩"),
+                    new("𝓷", "𝓝"),
+                    new("𝔫", "𝔑"),
+                    new("𝖓", "𝕹"),
+                    new("𝕟", "ℕ"),
+                    new("𝗇", "𝖭"),
+                    new("𝗻", "𝗡"),
+                    new("𝘯", "𝘕"),
+                    new("𝙣", "𝙉"),
+                    new("𝚗", "𝙽"),
                 };
             case LetterKey.O:
                 return new AccentPair[]
@@ -942,6 +1126,19 @@ public class SettingsService
                     new("ᶗ", String.Empty),
                     new("ꝏ", "Ꝏ"),
                     new("ｏ", "Ｏ"),
+                    new("𝐨", "𝐎"),
+                    new("𝑜", "𝑂"),
+                    new("𝒐", "𝑶"),
+                    new("ℴ", "𝒪"),
+                    new("𝓸", "𝓞"),
+                    new("𝔬", "𝔒"),
+                    new("𝖔", "𝕺"),
+                    new("𝕠", "𝕆"),
+                    new("𝗈", "𝖮"),
+                    new("𝗼", "𝗢"),
+                    new("𝘰", "𝘖"),
+                    new("𝙤", "𝙊"),
+                    new("𝚘", "𝙾"),
                 };
             case LetterKey.P:
                 return new AccentPair[]
@@ -983,6 +1180,19 @@ public class SettingsService
                     new("℗", "℗"),
                     new("🄯", "🄯"),
                     new("ｐ", "Ｐ"),
+                    new("𝐩", "𝐏"),
+                    new("𝑝", "𝑃"),
+                    new("𝒑", "𝑷"),
+                    new("𝓅", "𝒫"),
+                    new("𝓹", "𝓟"),
+                    new("𝔭", "𝔓"),
+                    new("𝖕", "𝕻"),
+                    new("𝕡", "ℙ"),
+                    new("𝗉", "𝖯"),
+                    new("𝗽", "𝗣"),
+                    new("𝘱", "𝘗"),
+                    new("𝙥", "𝙋"),
+                    new("𝚙", "𝙿"),
                 };
             case LetterKey.Q:
                 return new AccentPair[]
@@ -1019,6 +1229,19 @@ public class SettingsService
                     new("ʠ", String.Empty),
                     new(String.Empty, "ꞯ"),
                     new("ｑ", "Ｑ"),
+                    new("𝐪", "𝐐"),
+                    new("𝑞", "𝑄"),
+                    new("𝒒", "𝑸"),
+                    new("𝓆", "𝒬"),
+                    new("𝓺", "𝓠"),
+                    new("𝔮", "𝔔"),
+                    new("𝖖", "𝕼"),
+                    new("𝕢", "ℚ"),
+                    new("𝗊", "𝖰"),
+                    new("𝗾", "𝗤"),
+                    new("𝘲", "𝘘"),
+                    new("𝙦", "𝙌"),
+                    new("𝚚", "𝚀"),
                 };
             case LetterKey.R:
                 return new AccentPair[]
@@ -1089,6 +1312,19 @@ public class SettingsService
                     new("₨", "₨"),
                     new("®", "®"),
                     new("ｒ", "Ｒ"),
+                    new("𝐫", "𝐑"),
+                    new("𝑟", "𝑅"),
+                    new("𝒓", "𝑹"),
+                    new("𝓇", "ℛ"),
+                    new("𝓻", "𝓡"),
+                    new("𝔯", "ℜ"),
+                    new("𝖗", "𝕽"),
+                    new("𝕣", "ℝ"),
+                    new("𝗋", "𝖱"),
+                    new("𝗿", "𝗥"),
+                    new("𝘳", "𝘙"),
+                    new("𝙧", "𝙍"),
+                    new("𝚛", "𝚁"),
                 };
             case LetterKey.S:
                 return new AccentPair[]
@@ -1154,6 +1390,19 @@ public class SettingsService
                     new("₷", "₷"),
                     new("§", "§"),
                     new("ｓ", "Ｓ"),
+                    new("𝐬", "𝐒"),
+                    new("𝑠", "𝑆"),
+                    new("𝒔", "𝑺"),
+                    new("𝓈", "𝒮"),
+                    new("𝓼", "𝓢"),
+                    new("𝔰", "𝔖"),
+                    new("𝖘", "𝕾"),
+                    new("𝕤", "𝕊"),
+                    new("𝗌", "𝖲"),
+                    new("𝘀", "𝗦"),
+                    new("𝘴", "𝘚"),
+                    new("𝙨", "𝙎"),
+                    new("𝚜", "𝚂"),
                 };
             case LetterKey.T:
                 return new AccentPair[]
@@ -1210,6 +1459,19 @@ public class SettingsService
                     new("₸", "₸"),
                     new("™", "™"),
                     new("ｔ", "Ｔ"),
+                    new("𝐭", "𝐓"),
+                    new("𝑡", "𝑇"),
+                    new("𝒕", "𝑻"),
+                    new("𝓉", "𝒯"),
+                    new("𝓽", "𝓣"),
+                    new("𝔱", "𝔗"),
+                    new("𝖙", "𝕿"),
+                    new("𝕥", "𝕋"),
+                    new("𝗍", "𝖳"),
+                    new("𝘁", "𝗧"),
+                    new("𝘵", "𝘛"),
+                    new("𝙩", "𝙏"),
+                    new("𝚝", "𝚃"),
                 };
             case LetterKey.U:
                 return new AccentPair[]
@@ -1276,6 +1538,19 @@ public class SettingsService
                     new(String.Empty, "ᵾ"),
                     new("ꝸ", String.Empty),
                     new("ｕ", "Ｕ"),
+                    new("𝐮", "𝐔"),
+                    new("𝑢", "𝑈"),
+                    new("𝒖", "𝑼"),
+                    new("𝓊", "𝒰"),
+                    new("𝓾", "𝓤"),
+                    new("𝔲", "𝔘"),
+                    new("𝖚", "𝖀"),
+                    new("𝕦", "𝕌"),
+                    new("𝗎", "𝖴"),
+                    new("𝘂", "𝗨"),
+                    new("𝘶", "𝘜"),
+                    new("𝙪", "𝙐"),
+                    new("𝚞", "𝚄"),
                 };
             case LetterKey.V:
                 return new AccentPair[]
@@ -1318,6 +1593,19 @@ public class SettingsService
                     new("ꝩ", "Ꝩ"),
                     new(String.Empty, "℣"),
                     new("ｖ", "Ｖ"),
+                    new("𝐯", "𝐕"),
+                    new("𝑣", "𝑉"),
+                    new("𝒗", "𝑽"),
+                    new("𝓋", "𝒱"),
+                    new("𝓿", "𝓥"),
+                    new("𝔳", "𝔙"),
+                    new("𝖛", "𝖁"),
+                    new("𝕧", "𝕍"),
+                    new("𝗏", "𝖵"),
+                    new("𝘃", "𝗩"),
+                    new("𝘷", "𝘝"),
+                    new("𝙫", "𝙑"),
+                    new("𝚟", "𝚅"),
                 };
             case LetterKey.W:
                 return new AccentPair[]
@@ -1353,6 +1641,19 @@ public class SettingsService
                     new("ʬ", "ʬ"),
                     new("₩", "₩"),
                     new("ｗ", "Ｗ"),
+                    new("𝐰", "𝐖"),
+                    new("𝑤", "𝑊"),
+                    new("𝒘", "𝑾"),
+                    new("𝓌", "𝒲"),
+                    new("𝔀", "𝓦"),
+                    new("𝔴", "𝔚"),
+                    new("𝖜", "𝖂"),
+                    new("𝕨", "𝕎"),
+                    new("𝗐", "𝖶"),
+                    new("𝘄", "𝗪"),
+                    new("𝘸", "𝘞"),
+                    new("𝙬", "𝙒"),
+                    new("𝚠", "𝚆"),
                 };
             case LetterKey.X:
                 return new AccentPair[]
@@ -1386,6 +1687,19 @@ public class SettingsService
                     new("ꭘ", String.Empty),
                     new("ꭙ", String.Empty),
                     new("ｘ", "Ｘ"),
+                    new("𝐱", "𝐗"),
+                    new("𝑥", "𝑋"),
+                    new("𝒙", "𝑿"),
+                    new("𝓍", "𝒳"),
+                    new("𝔁", "𝓧"),
+                    new("𝔵", "𝔛"),
+                    new("𝖝", "𝖃"),
+                    new("𝕩", "𝕏"),
+                    new("𝗑", "𝖷"),
+                    new("𝘅", "𝗫"),
+                    new("𝘹", "𝘟"),
+                    new("𝙭", "𝙓"),
+                    new("𝚡", "𝚇"),
                 };
             case LetterKey.Y:
                 return new AccentPair[]
@@ -1424,6 +1738,19 @@ public class SettingsService
                     new("ʏ", String.Empty),
                     new("¥", "¥"),
                     new("ｙ", "Ｙ"),
+                    new("𝐲", "𝐘"),
+                    new("𝑦", "𝑌"),
+                    new("𝒚", "𝒀"),
+                    new("𝓎", "𝒴"),
+                    new("𝔂", "𝓨"),
+                    new("𝔶", "𝔜"),
+                    new("𝖞", "𝖄"),
+                    new("𝕪", "𝕐"),
+                    new("𝗒", "𝖸"),
+                    new("𝘆", "𝗬"),
+                    new("𝘺", "𝘠"),
+                    new("𝙮", "𝙔"),
+                    new("𝚢", "𝚈"),
                 };
             case LetterKey.Z:
                 return new AccentPair[]
@@ -1470,6 +1797,19 @@ public class SettingsService
                     new(String.Empty, "ᴢ"),
                     new(String.Empty, "ᴣ"),
                     new("ｚ", "Ｚ"),
+                    new("𝐳", "𝐙"),
+                    new("𝑧", "𝑍"),
+                    new("𝒛", "𝒁"),
+                    new("𝓏", "𝒵"),
+                    new("𝔃", "𝓩"),
+                    new("𝔷", "ℨ"),
+                    new("𝖟", "𝖅"),
+                    new("𝕫", "ℤ"),
+                    new("𝗓", "𝖹"),
+                    new("𝘇", "𝗭"),
+                    new("𝘻", "𝘡"),
+                    new("𝙯", "𝙕"),
+                    new("𝚣", "𝚉"),
                 };
             case LetterKey.Currency:
                 return new AccentPair[]
@@ -1498,6 +1838,7 @@ public class SettingsService
                     new("₣", "₣"),
                     new("₤", "₤"),
                     new("₥", "₥"),
+                    new("ℳ", "ℳ"),
                     new("₦", "₦"),
                     new("₧", "₧"),
                     new("₨", "₨"),
@@ -1576,55 +1917,105 @@ public class SettingsService
                     new("⸮", "⸮"),
                     new("︖", "︖"),
                 };
-            case LetterKey.Num_0:
+            case LetterKey.Numeral_0:
                 return new AccentPair[]
                 {
                     new("０", "０"),
+                    new("𝟎", "𝟎"),
+                    new("𝟘", "𝟘"),
+                    new("𝟢", "𝟢"),
+                    new("𝟬", "𝟬"),
+                    new("𝟶", "𝟶"),
                 };
-            case LetterKey.Num_1:
+            case LetterKey.Numeral_1:
                 return new AccentPair[]
                 {
-                    new("１", "１"), 
+                    new("１", "１"),
+                    new("𝟏", "𝟏"),
+                    new("𝟙", "𝟙"),
+                    new("𝟣", "𝟣"),
+                    new("𝟭", "𝟭"),
+                    new("𝟷", "𝟷"),
                 };
-            case LetterKey.Num_2:
+            case LetterKey.Numeral_2:
                 return new AccentPair[]
                 {
                     new("２", "２"),
+                    new("𝟐", "𝟐"),
+                    new("𝟚", "𝟚"),
+                    new("𝟤", "𝟤"),
+                    new("𝟮", "𝟮"),
+                    new("𝟸", "𝟸"),
                 };
-            case LetterKey.Num_3:
+            case LetterKey.Numeral_3:
                 return new AccentPair[]
                 {
                     new("３", "３"),
+                    new("𝟑", "𝟑"),
+                    new("𝟛", "𝟛"),
+                    new("𝟥", "𝟥"),
+                    new("𝟯", "𝟯"),
+                    new("𝟹", "𝟹"),
                 };
-            case LetterKey.Num_4:
+            case LetterKey.Numeral_4:
                 return new AccentPair[]
                 {
                     new("４", "４"),
+                    new("𝟒", "𝟒"),
+                    new("𝟜", "𝟜"),
+                    new("𝟦", "𝟦"),
+                    new("𝟰", "𝟰"),
+                    new("𝟺", "𝟺"),
                 };
-            case LetterKey.Num_5:
+            case LetterKey.Numeral_5:
                 return new AccentPair[]
                 {
                     new("５", "５"),
+                    new("𝟓", "𝟓"),
+                    new("𝟝", "𝟝"),
+                    new("𝟧", "𝟧"),
+                    new("𝟱", "𝟱"),
+                    new("𝟻", "𝟻"),
                 };
-            case LetterKey.Num_6:
+            case LetterKey.Numeral_6:
                 return new AccentPair[]
                 {
                     new("６", "６"),
+                    new("𝟔", "𝟔"),
+                    new("𝟞", "𝟞"),
+                    new("𝟨", "𝟨"),
+                    new("𝟲", "𝟲"),
+                    new("𝟼", "𝟼"),
                 };
-            case LetterKey.Num_7:
+            case LetterKey.Numeral_7:
                 return new AccentPair[]
                 {
                     new("７", "７"),
+                    new("𝟕", "𝟕"),
+                    new("𝟟", "𝟟"),
+                    new("𝟩", "𝟩"),
+                    new("𝟳", "𝟳"),
+                    new("𝟽", "𝟽"),
                 };
-            case LetterKey.Num_8:
+            case LetterKey.Numeral_8:
                 return new AccentPair[]
                 {
                     new("８", "８"),
+                    new("𝟖", "𝟖"),
+                    new("𝟠", "𝟠"),
+                    new("𝟪", "𝟪"),
+                    new("𝟴", "𝟴"),
+                    new("𝟾", "𝟾"),
                 };
-            case LetterKey.Num_9:
+            case LetterKey.Numeral_9:
                 return new AccentPair[]
                 {
                     new("９", "９"),
+                    new("𝟗", "𝟗"),
+                    new("𝟡", "𝟡"),
+                    new("𝟫", "𝟫"),
+                    new("𝟵", "𝟵"),
+                    new("𝟿", "𝟿"),
                 };
         }
 
