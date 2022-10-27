@@ -234,6 +234,8 @@ public class SettingsService
                     new("𝘢", "𝘈"),
                     new("𝙖", "𝘼"),
                     new("𝚊", "𝙰"),
+                    new("℀", "⅍"),
+                    new("℁", String.Empty),
                 };
             case LetterKey.B:
                 return new AccentPair[]
@@ -348,6 +350,9 @@ public class SettingsService
                     new("𝘤", "𝘊"),
                     new("𝙘", "𝘾"),
                     new("𝚌", "𝙲"),
+                    new("℄", "℄"),
+                    new("℅", "℅"),
+                    new("℆", "℆"),
                 };
             case LetterKey.D:
                 return new AccentPair[]
@@ -409,6 +414,7 @@ public class SettingsService
                     new("𝔡", "𝔇"),
                     new("𝖉", "𝕯"),
                     new("𝕕", "𝔻"),
+                    new("ⅆ", "ⅅ"),
                     new("𝖽", "𝖣"),
                     new("𝗱", "𝗗"),
                     new("𝘥", "𝘋"),
@@ -456,6 +462,7 @@ public class SettingsService
                     new("é̩", "É̩"),
                     new("ꝫ", "Ꝫ"),
                     new("ɛ", "Ɛ"),
+                    new(String.Empty, "ℇ")
                     new("ɜ", "Ɜ"),
                     new("e̦", "E̦"),
                     new("e̱", "E̱"),
@@ -494,11 +501,14 @@ public class SettingsService
                     new("𝔢", "𝔈"),
                     new("𝖊", "𝕰"),
                     new("𝕖", "𝔼"),
+                    new("ⅇ", String.Empty),
                     new("𝖾", "𝖤"),
                     new("𝗲", "𝗘"),
                     new("𝘦", "𝘌"),
                     new("𝙚", "𝙀"),
                     new("𝚎", "𝙴"),
+                    new("℈", "℈"),
+                    new("℮", String.Empty),
                 };
             case LetterKey.F:
                 return new AccentPair[]
@@ -554,6 +564,8 @@ public class SettingsService
                     new("𝘧", "𝘍"),
                     new("𝙛", "𝙁"),
                     new("𝚏", "𝙵"),
+                    new("ⅎ", "Ⅎ"),
+                    new("℻", "℻"),
                 };
             case LetterKey.G:
                 return new AccentPair[]
@@ -610,6 +622,7 @@ public class SettingsService
                     new("𝘨", "𝘎"),
                     new("𝙜", "𝙂"),
                     new("𝚐", "𝙶"),
+                    new(String.Empty, "⅁"),
                 };
             case LetterKey.H:
                 return new AccentPair[]
@@ -726,11 +739,14 @@ public class SettingsService
                     new("𝔦", "ℑ"),
                     new("𝖎", "𝕴"),
                     new("𝕚", "𝕀"),
+                    new("ⅈ", String.Empty),
                     new("𝗂", "𝖨"),
                     new("𝗶", "𝗜"),
                     new("𝘪", "𝘐"),
                     new("𝙞", "𝙄"),
                     new("𝚒", "𝙸"),
+                    new("ℹ", String.Empty),
+                    new("🛈", String.Empty),
                 };
             case LetterKey.J:
                 return new AccentPair[]
@@ -775,6 +791,7 @@ public class SettingsService
                     new("𝔧", "𝔍"),
                     new("𝖏", "𝕵"),
                     new("𝕛", "𝕁"),
+                    new("ⅉ", String.Empty),
                     new("𝗃", "𝖩"),
                     new("𝗷", "𝗝"),
                     new("𝘫", "𝘑"),
@@ -832,6 +849,7 @@ public class SettingsService
                     new("𝘬", "𝘒"),
                     new("𝙠", "𝙆"),
                     new("𝚔", "𝙺"),
+                    new(String.Empty, "K"),
                 };
             case LetterKey.L:
                 return new AccentPair[]
@@ -914,6 +932,8 @@ public class SettingsService
                     new("𝘭", "𝘓"),
                     new("𝙡", "𝙇"),
                     new("𝚕", "𝙻"),
+                    new(String.Empty, "⅂"),
+                    new(String.Empty, "⅃"),
                 };
             case LetterKey.M:
                 return new AccentPair[]
@@ -1193,6 +1213,9 @@ public class SettingsService
                     new("𝘱", "𝘗"),
                     new("𝙥", "𝙋"),
                     new("𝚙", "𝙿"),
+                    new("℘", String.Empty),
+                    new("⅊", "⅊"),
+                    new("⅌", "⅌"),
                 };
             case LetterKey.Q:
                 return new AccentPair[]
@@ -1242,6 +1265,7 @@ public class SettingsService
                     new("𝘲", "𝘘"),
                     new("𝙦", "𝙌"),
                     new("𝚚", "𝚀"),
+                    new(String.Empty, "℺"),
                 };
             case LetterKey.R:
                 return new AccentPair[]
@@ -1403,6 +1427,7 @@ public class SettingsService
                     new("𝘴", "𝘚"),
                     new("𝙨", "𝙎"),
                     new("𝚜", "𝚂"),
+                    new("℠", "℠"),
                 };
             case LetterKey.T:
                 return new AccentPair[]
@@ -1472,6 +1497,7 @@ public class SettingsService
                     new("𝘵", "𝘛"),
                     new("𝙩", "𝙏"),
                     new("𝚝", "𝚃"),
+                    new("℡", "℡"),
                 };
             case LetterKey.U:
                 return new AccentPair[]
@@ -1654,6 +1680,7 @@ public class SettingsService
                     new("𝘸", "𝘞"),
                     new("𝙬", "𝙒"),
                     new("𝚠", "𝚆"),
+                    new("🄮", "🄮"),
                 };
             case LetterKey.X:
                 return new AccentPair[]
@@ -1751,6 +1778,7 @@ public class SettingsService
                     new("𝘺", "𝘠"),
                     new("𝙮", "𝙔"),
                     new("𝚢", "𝚈"),
+                    new(String.Empty, "⅄"),
                 };
             case LetterKey.Z:
                 return new AccentPair[]
@@ -1810,6 +1838,8 @@ public class SettingsService
                     new("𝘻", "𝘡"),
                     new("𝙯", "𝙕"),
                     new("𝚣", "𝚉"),
+                    new("℥", "℥"),
+                    new("🝳", "🝳"),
                 };
             case LetterKey.Currency:
                 return new AccentPair[]
